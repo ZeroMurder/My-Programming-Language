@@ -41,9 +41,10 @@ sr(expr) — converts the expression expr to a string (similar to str() in Pytho
 
 def function_name() — defines a new function with no parameters and the name function_name, with a single expression as its body.
 
-!(expr1, expr2) — function with two arguments, TRY_FUNC: tries to execute expr1, and if an error occurs, executes expr2.
+!(1 / 0, Error) — function with two arguments, TRY_FUNC: tries to execute expr1, and if an error occurs, executes expr2.
 
  Arithmetic operators: addition +, subtraction -, multiplication *, division /.
 
  Working with numbers, strings, and a basic set of operations and constructs.
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+
